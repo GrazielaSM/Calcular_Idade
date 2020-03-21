@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aula1_B
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine("\nIdade");
+            int idade = int.Parse(Console.ReadLine());
+
+            if (idade < 18)
+                Console.WriteLine("Menor idade");
+            else
+                Console.WriteLine("Maior de Idade");
+
+            Console.WriteLine("O seu nome é:" + nome);
+            //Aguarda uma tecla a ser precionada
+            Console.ReadKey();
+
+
+        }
+    }
+}

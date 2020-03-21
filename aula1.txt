@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aula1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Declarar variaveis:
+            String nome = "Graziela";
+            string sobrenome = "Martins";
+            bool isValid = true;
+
+
+            //Converter dados:
+            string valor1 = "1";
+            int v1 = Convert.ToInt32(valor1);
+            int v2 = int.Parse(valor1);
+
+
+            //Concatenar variáveis:
+            string nomeCompleto = nome + " " + sobrenome;
+
+            //Imprimir variável:
+            Console.WriteLine(nomeCompleto);
+
+            //Caracter Scape:
+            Console.WriteLine("olá Mundo!");
+            Console.WriteLine("Mundo da tecnologia...");
+            Console.ReadKey();
+        }
+    }
+}
